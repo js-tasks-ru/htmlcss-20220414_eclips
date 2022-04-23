@@ -10,43 +10,42 @@
     /* identical to box height */
     text-align: center;
     text-decoration: none;
-    background-color: white;
-    width : 189px;
-    height : 48px;
+    background-color: #E5E5E5;
+    width: 189px;
+    height: 48px;
     border-radius: 8px;  
+    box-sizing: border-box;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
   }
   
-  .button-theme-primary {
-    color: white;
+  .button_primary {
+    color: #FFFFFF;
     background-color: #4263EB;
   }
   
-  .button-theme-secondary {
+  .button_secondary {
     background-color: #7048E8;
-    color: white;
+    color:#FFFFFF;
   }
   
-  .button-theme-alternate {
-    border: 1px solid #ACB5BD;
-    box-sizing: border-box;
-    border-radius: 8px;
+  .button_alternate {
+    border-color: #ACB5BD;
     color: #495057;
   }
   
-  .button-theme-primary:hover {
+  .button_primary:hover {
     background-color: #2342C0;
   }
-  .button-theme-secondary:hover {
+  .button_secondary:hover {
     background-color: #5028C6;
   }
-  .button-theme-alternate:hover {
+  .button_alternate:hover {
     border: 1px solid #212429;
     
   }
   
-  .button-theme-disabled {
+  .button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    pointer-events: none;
   }
   
