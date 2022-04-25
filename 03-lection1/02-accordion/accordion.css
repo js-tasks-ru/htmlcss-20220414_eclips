@@ -1,1 +1,82 @@
-/* Стилизация аккордеона */
+.details_default {
+  --accordion-bg-color: #FFFFFF;
+  --according-border-color: #ACB5BD;
+  --details-height-closed: 300px;
+  --width: 730px;
+  /*--height: 72px; */
+  --height: auto;
+  --top: 227px;
+  --left: 544px;
+  --padding: 24px;
+  --margin-bottom: 8px;
+  --border-width: 1px;
+  --border-radius: 8px;
+  --font-weight: 400;
+  --font-size: 16px;
+  --line-height: 24px;
+}
+.summary_default__item {
+--color : #495057;
+--padding-top: 16px;
+--width: 648.31px;
+/*--height: 48px;*/
+--height: auto;
+--left: 576px;
+--top: 139px;
+--font-weight: 400;
+--font-size: 16px;
+--line-height: 24px;
+}
+
+.details_default {
+  width: var(--width);
+  height: var(--height);
+  top: var(--top);
+  left: var(--left);
+  padding: var(--padding);
+  margin-bottom: var(--margin-bottom);
+  background: var(--accordion-bg-color);
+
+  border: var(--border-width) solid ;
+  border-color : var(--according-border-color);
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  line-height: var(--line-height);  
+  
+  cursor: pointer;
+
+  max-height: var(--details-height-closed, auto);
+}
+
+.details_default:last-child {
+  margin-bottom: 0;
+}
+
+.details_default[open] {
+height: auto;  
+}
+
+.summary_default {
+list-style: none;
+}
+
+.summary_default__item {
+padding-top: var(--padding-top);
+width: var(--width);
+height: var(--height);
+left: var(--left);
+top: var(--top);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: var(--font-weight);
+font-size: var(--font-size);
+line-height: var(--line-height);
+
+color: var(--color);
+}
