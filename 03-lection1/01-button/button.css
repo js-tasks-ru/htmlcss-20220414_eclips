@@ -4,10 +4,10 @@
   --button-bg-color: #E5E5E5;
   --button-primary-bg-color: #4263EB;
   --button-primary-hover-bg-color: #2342C0;
-  --button-secondary-bg-color: #7048E8;
+  --button-secondary-bg-color: var(--purple);
   --button-alternate-bg-color: #ACB5BD;
   --button-secondary-hover-bg-color: #5028C6;
-  --button-alternate-hover-border-color: #212429;
+  --button-alternate-hover-border-color: var(--black);
   --button-primary-color: var(--white);
   --button-secondary-color: var(--white);
   --button-alternate-color: #495057;
