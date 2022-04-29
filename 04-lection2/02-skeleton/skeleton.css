@@ -1,0 +1,94 @@
+.skeleton {
+    --grey-5: #E2E6E8;
+    --grey-6: #F3F5F5;
+    --grey-7: #E3E7EA;
+    /* Rectangle */
+    background: var(--white);
+    /* Gray 3 */
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.skeleton__content {
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+}
+
+.skeleton__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.skeleton__image {
+    /* Gray 2 */
+    background: var(--grey-2);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.skeleton__header-description {
+    display: flex;  
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.skeleton__header-firstrow-container {
+    padding: 4px;
+    padding-bottom: 4px;
+    padding-top: 8px;
+    height: 50%;
+    width: 30%;
+}
+
+.skeleton__header-firstrow {
+    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, var(--grey-5) 38.47%, var(--grey-6) 56.48%, var(--grey-7) 77.5%, var(--grey-2) 102.52%);
+    height: 100%;
+}
+
+.skeleton__header-secondrow-container {
+    padding: 4px;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    height: 50%;
+    width: 45%;
+}
+
+.skeleton__header-secondrow {
+    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, var(--grey-5) 38.47%, var(--grey-6) 56.48%, var(--grey-7) 77.5%, var(--grey-2) 102.52%);
+    height: 100%;
+}
+
+.skeleton__body {
+    display: flex;  
+    flex-direction: column;
+}
+
+
+.skeleton__body-firstrow-container {
+    height: 20px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+
+.skeleton__body-firstrow {
+    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, var(--grey-5) 38.47%, var(--grey-6) 56.48%, var(--grey-7) 77.5%, var(--grey-2) 102.52%);
+    height: 100%;
+}
+
+.skeleton__body-secondrow-container {
+    height: 20px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+.skeleton__body-secondrow {
+    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, var(--grey-5) 38.47%, var(--grey-6) 56.48%, var(--grey-7) 77.5%, var(--grey-2) 102.52%);
+    height: 100%;
+}
