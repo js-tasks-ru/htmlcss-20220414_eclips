@@ -74,7 +74,7 @@
     height: 50px;
 }
 
-.histogram__data> div:nth-child(1n) {
+.histogram__data-column {
     /* block color*/
     background-color: var(--light-blue);
     flex-grow: 1;
