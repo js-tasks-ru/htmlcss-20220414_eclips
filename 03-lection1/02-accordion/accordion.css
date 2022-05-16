@@ -1,1 +1,50 @@
-/* Стилизация аккордеона */
+.accordion {
+  --color : #495057;
+  --accordion-bg-color: #FFFFFF;
+  --according-border-color: #ACB5BD;
+
+}
+
+
+.accordion__item {
+  height: auto;
+  padding: 24px;
+  
+  background: var(--accordion-bg-color);
+
+  border: 1px solid;
+  border-color : var(--according-border-color);
+  border-radius: 8px;
+  box-sizing: border-box;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 8px;
+}
+
+
+.accordion__item[open] {
+height: auto;  
+}
+
+.accordion__title {
+list-style: none;
+}
+
+.accordion__content {
+
+padding-top: 16px;
+height: auto;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: var(--color);
+}
