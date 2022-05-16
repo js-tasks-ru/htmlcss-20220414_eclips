@@ -1,6 +1,6 @@
 .calendar {
     --column-width: auto;
-    --color-deep-blue: #334D6E;
+    --color-deep-blue: rgb(51, 77, 110);
     --color-faint-blue: #90A0B7;
     --color-select-blue: #4263EB;
 
@@ -57,4 +57,8 @@
 .calendar__day:hover {
     color: var(--white);
     background-color: var(--color-select-blue);
+}
+
+.calendar__day-selected {
+    background-color: rgba(51, 77, 110, 0.2);
 }
