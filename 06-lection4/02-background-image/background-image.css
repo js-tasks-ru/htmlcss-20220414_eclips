@@ -1,0 +1,27 @@
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("public/forest_2560.jpg");
+    min-height: 1440px;
+}
+
+@media screen and (max-width: 1024px) {
+    .bg {
+        background-image: url("public/forest_1024.jpg");
+        min-height: 576px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .bg {
+        background-image: url("public/forest_768.jpg");
+        min-height: 432px;
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .bg {
+        background-image: url("public/forest_400.jpg");
+        min-height: 225px;
+    }    
+}
