@@ -1,5 +1,5 @@
 .container {
-    padding: 200px; /* shift content, because pop-up element have not enough space */
+    padding: 25%; /* shift content, because pop-up element have not enough space */
 }
 
 .tooltip {
@@ -8,23 +8,21 @@
 
 .tooltip__icon {
     background-image: url("../../assets/images/Help.svg");
+    background-repeat: no-repeat;
     width: 24px;
     height: 24px;
-    background-repeat: no-repeat;
 }
 
 .tooltip__message {
-    display : none;
-
-    padding-left: 21px;
-    padding-right: 21px;
-    padding-top: 13px;
-    padding-bottom: 8px;
+    display: none;
     position: absolute;
-    transform: translateX(-46%);
-    top:-59px;
+    width: 100px;
 
-    background: #4263EB;
+    padding: 13px 21px 8px 21px;
+    transform: translateX(-43%);
+    top:-58px;
+
+    background: var(--light-blue);
 
     /* p */
     font-family: 'Inter';
@@ -36,26 +34,24 @@
     text-align: center;
 
     /* Gray 2 */
-    color: #DDE2E5;
-
+    color: var(--grey-2);
 
     /* Card Shadow */
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 10px;
-
+    z-index: 1;
 }
 
 .tooltip__message-triangle {
-    border-left: 14px solid transparent;
+    display: none;
+    position: absolute;
+    border-top: 14px solid var(--light-blue);
     border-right: 14px solid transparent;
     border-bottom: 14px solid transparent;
-    border-top: 14px solid #4263EB;
-    display : none;
-    z-index: -1;
-    position: absolute;
+    border-left: 14px solid transparent;
     transform: translateX(-7%);
     top:-14px;
-
+    z-index: -1;
 }
 
 .tooltip__icon:hover ~ .tooltip__message {
