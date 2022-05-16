@@ -1,0 +1,15 @@
+.avatar {
+
+    width: 102px;
+    height: 102px;
+    
+    background: white;
+
+    /* Card Shadow */
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+}
+
+.avatar__image {
+    object-fit: cover;
+    border-radius: 50%;
+}
